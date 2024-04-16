@@ -50,4 +50,5 @@ public class VentanaPrincipal extends JFrame{
     {
         miModificacionI.addActionListener(al);
     }
+
 }
