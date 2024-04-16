@@ -16,9 +16,5 @@ public class Controlador {
         cu = new ControladorUsuario(this);
         ci = new ControladorInmueble(this);
         vp = new VentanaPrincipal();
-
-
-
-
     }
 }

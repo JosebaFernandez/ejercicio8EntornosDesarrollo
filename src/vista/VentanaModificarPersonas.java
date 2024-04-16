@@ -15,6 +15,15 @@ public class VentanaModificarPersonas extends JFrame{
         setSize(500,500);
         setLocationRelativeTo(null);
     }
+
+    public JTextField getTfDni() {
+        return tfDni;
+    }
+
+    public JTextField getTfNombre() {
+        return tfNombre;
+    }
+
     public void addBSalirAl(ActionListener al)
     {
         bSalir.addActionListener(al);
@@ -22,8 +31,5 @@ public class VentanaModificarPersonas extends JFrame{
     public void addBAceptarAl(ActionListener al)
     {
         bAceptar.addActionListener(al);
-    }
-    public void addTfDniFL(FocusListener fl){
-        tfDni.addFocusListener(fl);
     }
 }
